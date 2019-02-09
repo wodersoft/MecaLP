@@ -72,3 +72,33 @@ border-style: double;
     align-items: center;
 
 }
+
+#site-socials .socials{
+		width:100%;
+		padding: 15px 10px;
+	}
+#site-socials .socials a.social{
+		font-size:1.5em;
+		color:black;
+		margin:15px auto;
+		width:40px;
+		height:40px;
+		display: inline-block;
+		line-height: 40px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+		border-radius:50%;
+		background:#81BEF7;
+ 
+		
+		position: relative;
+		
+		text-align: center;
+	}
+#site-socials .socials a.social:hover{
+		background:#222;
+		color:white;
+	}
+
+
