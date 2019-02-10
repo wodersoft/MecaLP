@@ -303,7 +303,40 @@ blockquote:before{
 	border-top: 1px solid #EBEBEB;
 }
 
+/*SLIDER*/
 
+#slider{
+    width: 500px;
+    margin: 30px auto;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+#slider ul {
+    list-style: none;
+    width: 1500px;
+    display: flex;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+#slider img {
+    width:  500px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+
+    25% {margin-left: -500px;}
+    45% {margin-left: -500px;}
+
+    50% {margin-left: -1000px;}
+    70% {margin-left: -1000px;}
+
+    75% {margin-left: -1500px;}
+    100% {margin-left: -1500px;}
+}
 
 /*HERO AREA*/
 
