@@ -679,8 +679,13 @@ blockquote:before{
 #div{ 
          
 	background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-   
-   
+	
+	border-block-start-style: double;
+	border-block-end-style: double;
+	border-radius: 1em;
+	border-right-style: double;
+	border-left-style: double;
+	
   }
   #div2{
 
