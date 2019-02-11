@@ -101,4 +101,6 @@ border-style: double;
 		color:white;
 	}
 
-
+#header.transparent-nav .pedidos-menu li a {
+	color: #424242;
+}
