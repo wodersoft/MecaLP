@@ -1,62 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    
     <title>Document</title>
-
-    <link rel="stylesheet" href="css/css/styles.css">
-
-    <title>Simple Sidebar - Start Bootstrap Template</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Custom styles for this template -->
-    <link href="css/css/simple-sidebar.css" rel="stylesheet">
-    
-
-     
-
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-     
+     <link rel="stylesheet" href="css/css/styles.css">
 
+   
+   
+    
 </head>
-<body  >
-       
-                <div background="/img/fondo_tienda.jpg"  id="page-content-wrapper">
-            
-                  <nav  class="navbar navbar-expand-lg navbar-light white border-bottom">
-                    
-            
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-            
-                    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        
-                          <ul class="main-menu nav navbar-nav navbar-right ">
-                              <li  class="nav-item  "  ><a  class="white" href="index.html" >Inicio</a></li>
-                              <li   class="nav-item "><a  class="white" href="html/servicios.html">Servicios</a></li>
-                              <li    class="nav-item "><a  class="white" href="tienda.html">Tienda Virtual</a></li>
-                              <li   class="nav-item "><a  class="white" href="pedido.html">Contactanos</a></li>
-                          </ul>
-                     
-                       
-                      </ul>
-                    </div>
-                  </nav>
-            
-
-
-                 
-                  <section id="pedidos" class="container parallax4">
+<body>
+    <header id="header" class="transparent-nav">
+        <div class="container">
+    
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a class="logo" href="index.html">
+                        <img src="img/logo3.png" alt="logo">
+                    </a>
+                </div>
+                <!-- /Logo -->
+    
+                <!-- Mobile toggle -->
+                 <button class="navbar-toggle">
+                    <span></span>
+                </button>
+                    <!-- /Mobile toggle -->
+            </div>
+    
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="pedidos-menu nav navbar-nav navbar-right" >
+                    <li><a href="index.html" >INICIO</a></li>
+                    <li><a href="html/servicios.html">SERVICIOS</a></li>
+                    <li><a href="tienda.html">TIENDA VIRTUALl</a></li>
+                    <li><a href="pedido.html">CONTACTANOS</a></li>
+                </ul>
+             </nav>
+        </div>
+    </header>
+    <section id="pedidos" class="container parallax4">
 		
 		<div class="inner contact">
 
@@ -64,7 +53,7 @@
 			<div class="contact-form">
             
             	<h1><span class="white">Realiza Tu Pedido</span> </h1>
-                <p class="h-desc white">LLENA ELFORMULARIO </br>
+                <p class="h-pedidos">LLENA ELFORMULARIO </br>
                 	para mas información contactate con
                 	<span class="bold colored">+(591).</span></p>
 				
@@ -129,41 +118,8 @@
 				               
 			</div>
             </center>
-              <script src="jquery/jquery.min.js"></script>
-              <script src="js/bootstrap.bundle.min.js"></script>
-            
-              <!-- Menu Toggle Script -->
-              <script>
-                $("#menu-toggle").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#1").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#2").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#3").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#4").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#5").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                $("#6").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-              </script>
-
-
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
